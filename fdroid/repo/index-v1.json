@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1670016151000,
+    "timestamp": 1670016241000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -70,7 +70,7 @@
       "lastUpdated": 1669993630000,
       "localized": {
         "en-US": {
-          "summary": "SMB (Windows file sharing) Plugin for Total Commander"
+          "summary": "SMB (Windows shares) Plugin for Total Commander"
         }
       }
     },
