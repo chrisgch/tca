@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1670023477000,
+    "timestamp": 1670023522000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -137,6 +137,11 @@
       "added": 1669980557000,
       "packageName": "com.ghisler.tcplugins.totaldrip",
       "lastUpdated": 1669993632000,
+      "localized": {
+        "en-US": {
+          "summary": "Plugin for Total Commander to access Dropbox"
+        }
+      },
       "icon": "com.ghisler.tcplugins.totaldrip.png"
     }
   ],
