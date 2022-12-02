@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1670017455000,
+    "timestamp": 1670018894000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -22,7 +22,8 @@
       "name": "Multi-APK-Installer",
       "added": 1669980556000,
       "packageName": "com.ghisler.appinstaller",
-      "lastUpdated": 1669993629000
+      "lastUpdated": 1669993629000,
+      "icon": "com.ghisler.appinstaller.png"
     },
     {
       "authorName": "Christian Ghisler",
@@ -31,7 +32,8 @@
       "name": "Total Commander",
       "added": 1669980556000,
       "packageName": "com.ghisler.android.TotalCommander",
-      "lastUpdated": 1669993629000
+      "lastUpdated": 1669993629000,
+      "icon": "com.ghisler.android.TotalCommander.png"
     },
     {
       "authorName": "Christian Ghisler",
@@ -40,7 +42,8 @@
       "name": "Totalcmd-Drive",
       "added": 1669993454000,
       "packageName": "com.ghisler.tcplugins.drive",
-      "lastUpdated": 1669993630000
+      "lastUpdated": 1669993630000,
+      "icon": "com.ghisler.tcplugins.drive.png"
     },
     {
       "authorName": "Christian Ghisler",
@@ -58,7 +61,8 @@
           ],
           "summary": "FTP-Plugin for Total Commander"
         }
-      }
+      },
+      "icon": "com.ghisler.tcplugins.FTP.png"
     },
     {
       "authorName": "Christian Ghisler",
@@ -72,7 +76,8 @@
         "en-US": {
           "summary": "SMB (file sharing) plugin for Total Commander"
         }
-      }
+      },
+      "icon": "com.ghisler.tcplugins.LAN.png"
     },
     {
       "authorName": "Christian Ghisler",
@@ -101,7 +106,8 @@
       "name": "TotalCmd-WebDAV (WEB Folders)",
       "added": 1669980555000,
       "packageName": "com.ghisler.tcplugins.WebDAV",
-      "lastUpdated": 1669993631000
+      "lastUpdated": 1669993631000,
+      "icon": "com.ghisler.tcplugins.WebDAV.png"
     },
     {
       "authorName": "Christian Ghisler",
@@ -110,7 +116,8 @@
       "name": "Totalcmd-Windows Live OneDrive",
       "added": 1669990375000,
       "packageName": "com.ghisler.tcplugins.WindowsLive",
-      "lastUpdated": 1669993632000
+      "lastUpdated": 1669993632000,
+      "icon": "com.ghisler.tcplugins.WindowsLive.png"
     },
     {
       "authorName": "Christian Ghisler",
@@ -119,7 +126,8 @@
       "name": "TotalDrip Total Commander Plugin",
       "added": 1669980557000,
       "packageName": "com.ghisler.tcplugins.totaldrip",
-      "lastUpdated": 1669993632000
+      "lastUpdated": 1669993632000,
+      "icon": "com.ghisler.tcplugins.totaldrip.png"
     }
   ],
   "packages": {
