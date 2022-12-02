@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1670023522000,
+    "timestamp": 1670023551000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -33,6 +33,11 @@
       "added": 1669980556000,
       "packageName": "com.ghisler.android.TotalCommander",
       "lastUpdated": 1669993629000,
+      "localized": {
+        "en-US": {
+          "summary": "File manager for Android"
+        }
+      },
       "icon": "com.ghisler.android.TotalCommander.png"
     },
     {
