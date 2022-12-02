@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1670013290000,
+    "timestamp": 1670014487000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -79,7 +79,7 @@
       "lastUpdated": 1669993631000,
       "localized": {
         "en-US": {
-          "description": "This is a Plugin for Total Commander for Android!\r\nIt does not work standalone!\r\n\r\nDo NOT install if you do not use Total Commander!\r\n\r\nNote: This plugin allows to connect to SFTP servers (file transfer over SSH secure shell). For FTPS (FTP over SSL), please use the separate FTP plugin.\r\n\r\nWhy is this plugin so big? It includes the free sshj library for ssh connections. To support authentication via client certificates, it also has to include libraries from the BouncyCastle project.",
+          "description": "This is a Plugin for Total Commander for Android! It does not work standalone!\r\n\r\nDo NOT install if you do not use Total Commander!\r\n\r\nNote: This plugin allows to connect to SFTP servers (file transfer over SSH secure shell). For FTPS (FTP over SSL), please use the separate FTP plugin.\r\n\r\nWhy is this plugin so big? It includes the free sshj library for ssh connections. To support authentication via client certificates, it also has to include libraries from the BouncyCastle project.",
           "phoneScreenshots": [
             "sftpshot1.png",
             "sftpshot2.png"
