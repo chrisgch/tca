@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1669997099000,
+    "timestamp": 1669997673000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -16,6 +16,7 @@
   },
   "apps": [
     {
+      "authorName": "Christian Ghisler",
       "suggestedVersionCode": "1",
       "license": "Unknown",
       "name": "Multi-APK-Installer",
@@ -24,6 +25,7 @@
       "lastUpdated": 1669993629000
     },
     {
+      "authorName": "Christian Ghisler",
       "suggestedVersionCode": "2057",
       "license": "Unknown",
       "name": "Total Commander",
@@ -32,6 +34,7 @@
       "lastUpdated": 1669993629000
     },
     {
+      "authorName": "Christian Ghisler",
       "suggestedVersionCode": "23",
       "license": "Unknown",
       "name": "Totalcmd-Drive",
@@ -49,7 +52,7 @@
       "lastUpdated": 1669993630000,
       "localized": {
         "en-US": {
-          "description": "This is a Plugin for Total Commander for Android!\r\nIt does not work standalone!\r\n\r\nDo NOT install if you do not use Total Commander!\r\n\r\nThis plugin supports connections by FTP and FTPS (secure FTP over SSL). For SFTP (file transfer over SSH secure shell), there is a separate plugin.",
+          "description": "This is a Plugin for Total Commander for Android!\r\nIt does not work standalone!\r\n\r\nDo NOT install if you do not use Total Commander!\r\n\r\nThis plugin supports connections by FTP and FTPS (secure FTP over SSL). For SFTP (file transfer over SSH secure shell), there is a separate plugin available.",
           "phoneScreenshots": [
             "ftpshot1.png"
           ],
@@ -58,6 +61,7 @@
       }
     },
     {
+      "authorName": "Christian Ghisler",
       "suggestedVersionCode": "87",
       "license": "Unknown",
       "name": "TotalCmd-LAN (Windows shares)",
@@ -86,6 +90,7 @@
       }
     },
     {
+      "authorName": "Christian Ghisler",
       "suggestedVersionCode": "51",
       "license": "Unknown",
       "name": "TotalCmd-WebDAV (WEB Folders)",
@@ -94,6 +99,7 @@
       "lastUpdated": 1669993631000
     },
     {
+      "authorName": "Christian Ghisler",
       "suggestedVersionCode": "19",
       "license": "Unknown",
       "name": "Totalcmd-Windows Live OneDrive",
@@ -102,6 +108,7 @@
       "lastUpdated": 1669993632000
     },
     {
+      "authorName": "Christian Ghisler",
       "suggestedVersionCode": "11",
       "license": "Unknown",
       "name": "TotalDrip Total Commander Plugin",
