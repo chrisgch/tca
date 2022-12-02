@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1670023437000,
+    "timestamp": 1670023477000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -122,6 +122,11 @@
       "added": 1669990375000,
       "packageName": "com.ghisler.tcplugins.WindowsLive",
       "lastUpdated": 1669993632000,
+      "localized": {
+        "en-US": {
+          "summary": "Plugin for Total Commander to access Microsoft OneDrive"
+        }
+      },
       "icon": "com.ghisler.tcplugins.WindowsLive.png"
     },
     {
