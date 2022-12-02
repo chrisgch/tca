@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1670015505000,
+    "timestamp": 1670015625000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -67,7 +67,12 @@
       "name": "TotalCmd-LAN (Windows shares)",
       "added": 1669993630000,
       "packageName": "com.ghisler.tcplugins.LAN",
-      "lastUpdated": 1669993630000
+      "lastUpdated": 1669993630000,
+      "localized": {
+        "en-US": {
+          "summary": "SMB Plugin for Total Commander"
+        }
+      }
     },
     {
       "authorName": "Christian Ghisler",
