@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1670010217000,
+    "timestamp": 1670010593000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -59,15 +59,6 @@
           "summary": "FTP-Plugin for Total Commander"
         }
       }
-    },
-    {
-      "authorName": "Christian Ghisler",
-      "suggestedVersionCode": "87",
-      "license": "Unknown",
-      "name": "TotalCmd-LAN (Windows shares)",
-      "added": 1669990520000,
-      "packageName": "com.ghisler.tcplugins.LAN",
-      "lastUpdated": 1669993630000
     },
     {
       "authorName": "Christian Ghisler",
@@ -294,54 +285,6 @@
         ],
         "versionCode": 60,
         "versionName": "2.43"
-      }
-    ],
-    "com.ghisler.tcplugins.LAN": [
-      {
-        "added": 1669993630000,
-        "apkName": "tcandroidlan330.apk",
-        "hash": "da0d15a8f0abe8267aceb2b8bed09cf45ecca34f33f26037a6a9a0d9e696aeef",
-        "hashType": "sha256",
-        "minSdkVersion": 8,
-        "packageName": "com.ghisler.tcplugins.LAN",
-        "sig": "802e9030d81682201243d153ab0d7f1c",
-        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
-        "size": 727109,
-        "targetSdkVersion": 31,
-        "uses-permission": [
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.CHANGE_WIFI_STATE",
-            null
-          ]
-        ],
-        "uses-permission-sdk-23": [
-          [
-            "android.permission.ACCESS_WIFI_STATE",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE",
-            null
-          ]
-        ],
-        "versionCode": 87,
-        "versionName": "3.30"
       }
     ],
     "com.ghisler.tcplugins.SFTP": [
