@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1670023551000,
+    "timestamp": 1670023612000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -23,6 +23,11 @@
       "added": 1669980556000,
       "packageName": "com.ghisler.appinstaller",
       "lastUpdated": 1669993629000,
+      "localized": {
+        "en-US": {
+          "summary": "App to install apk, apks, apkm and xapk files"
+        }
+      },
       "icon": "com.ghisler.appinstaller.png"
     },
     {
