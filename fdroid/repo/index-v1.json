@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1669994794000,
+    "timestamp": 1669997067000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -40,12 +40,22 @@
       "lastUpdated": 1669993630000
     },
     {
+      "authorName": "Christian Ghisler",
       "suggestedVersionCode": "60",
       "license": "Unknown",
       "name": "TotalCmd-FTP (File Transfers)",
       "added": 1669980555000,
       "packageName": "com.ghisler.tcplugins.FTP",
-      "lastUpdated": 1669993630000
+      "lastUpdated": 1669993630000,
+      "localized": {
+        "en-US": {
+          "description": "This is a Plugin for Total Commander for Android!\r\nIt does not work standalone!\r\n\r\nDo NOT install if you do not use Total Commander!\r\n\r\nThis plugin supports connections by FTP and FTPS (secure FTP over SSL). For SFTP (file transfer over SSH secure shell), there is a separate plugin.",
+          "phoneScreenshots": [
+            "ftpshot1.png"
+          ],
+          "summary": "FTP-Plugin for Total Commander"
+        }
+      }
     },
     {
       "suggestedVersionCode": "87",
@@ -56,13 +66,24 @@
       "lastUpdated": 1669993630000
     },
     {
+      "authorName": "Christian Ghisler",
       "suggestedVersionCode": "45",
       "license": "Unknown",
       "name": "TotalCmd-SFTP",
       "added": 1669981425000,
       "icon": "com.ghisler.tcplugins.SFTP.45.png",
       "packageName": "com.ghisler.tcplugins.SFTP",
-      "lastUpdated": 1669993631000
+      "lastUpdated": 1669993631000,
+      "localized": {
+        "en-US": {
+          "description": "This is a Plugin for Total Commander for Android!\r\nIt does not work standalone!\r\n\r\nDo NOT install if you do not use Total Commander!\r\n\r\nNote: This plugin allows to connect to SFTP servers (file transfer over SSH secure shell). For FTPS (FTP over SSL), please use the separate FTP plugin.\r\n\r\nWhy is this plugin so big? It includes the free sshj library for ssh connections. To support authentication via client certificates, it also has to include libraries from the BouncyCastle project.",
+          "phoneScreenshots": [
+            "sftpshot1.png",
+            "sftpshot2.png"
+          ],
+          "summary": "SFTP-Plugin for Total Commander"
+        }
+      }
     },
     {
       "suggestedVersionCode": "51",
