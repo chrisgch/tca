@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1670014487000,
+    "timestamp": 1670015505000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -61,6 +61,7 @@
       }
     },
     {
+      "authorName": "Christian Ghisler",
       "suggestedVersionCode": "87",
       "license": "Unknown",
       "name": "TotalCmd-LAN (Windows shares)",
