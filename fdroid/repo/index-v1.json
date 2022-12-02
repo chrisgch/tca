@@ -1,0 +1,582 @@
+{
+  "repo": {
+    "timestamp": 1669994785000,
+    "version": 21,
+    "name": "totalcmd",
+    "icon": "default-repo-icon.png",
+    "address": "https://raw.githubusercontent.com/chrisgch/tca/master/fdroid/repo",
+    "description": "Total Commander for Android",
+    "mirrors": [
+      "https://raw.githubusercontent.com/chrisgch/tca/master/fdroid/repo/repo"
+    ]
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [
+    {
+      "suggestedVersionCode": "1",
+      "license": "Unknown",
+      "name": "Multi-APK-Installer",
+      "added": 1669980556000,
+      "packageName": "com.ghisler.appinstaller",
+      "lastUpdated": 1669993629000
+    },
+    {
+      "suggestedVersionCode": "2057",
+      "license": "Unknown",
+      "name": "Total Commander",
+      "added": 1669980556000,
+      "packageName": "com.ghisler.android.TotalCommander",
+      "lastUpdated": 1669993629000
+    },
+    {
+      "suggestedVersionCode": "23",
+      "license": "Unknown",
+      "name": "Totalcmd-Drive",
+      "added": 1669993454000,
+      "packageName": "com.ghisler.tcplugins.drive",
+      "lastUpdated": 1669993630000
+    },
+    {
+      "suggestedVersionCode": "60",
+      "license": "Unknown",
+      "name": "TotalCmd-FTP (File Transfers)",
+      "added": 1669980555000,
+      "packageName": "com.ghisler.tcplugins.FTP",
+      "lastUpdated": 1669993630000
+    },
+    {
+      "suggestedVersionCode": "87",
+      "license": "Unknown",
+      "name": "TotalCmd-LAN (Windows shares)",
+      "added": 1669990520000,
+      "packageName": "com.ghisler.tcplugins.LAN",
+      "lastUpdated": 1669993630000
+    },
+    {
+      "suggestedVersionCode": "45",
+      "license": "Unknown",
+      "name": "TotalCmd-SFTP",
+      "added": 1669981425000,
+      "icon": "com.ghisler.tcplugins.SFTP.45.png",
+      "packageName": "com.ghisler.tcplugins.SFTP",
+      "lastUpdated": 1669993631000
+    },
+    {
+      "suggestedVersionCode": "51",
+      "license": "Unknown",
+      "name": "TotalCmd-WebDAV (WEB Folders)",
+      "added": 1669980555000,
+      "packageName": "com.ghisler.tcplugins.WebDAV",
+      "lastUpdated": 1669993631000
+    },
+    {
+      "suggestedVersionCode": "19",
+      "license": "Unknown",
+      "name": "Totalcmd-Windows Live OneDrive",
+      "added": 1669990375000,
+      "packageName": "com.ghisler.tcplugins.WindowsLive",
+      "lastUpdated": 1669993632000
+    },
+    {
+      "suggestedVersionCode": "11",
+      "license": "Unknown",
+      "name": "TotalDrip Total Commander Plugin",
+      "added": 1669980557000,
+      "packageName": "com.ghisler.tcplugins.totaldrip",
+      "lastUpdated": 1669993632000
+    }
+  ],
+  "packages": {
+    "com.ghisler.android.TotalCommander": [
+      {
+        "added": 1669993629000,
+        "apkName": "tcandroid333d-universal.apk",
+        "hash": "c6ba91dc15d0d450bcb3b3b6804df0cf2164c568ba93d6a8958f7ab76adaefd8",
+        "hashType": "sha256",
+        "minSdkVersion": 8,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a",
+          "mips",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.ghisler.android.TotalCommander",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 4623240,
+        "targetSdkVersion": 30,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH_ADMIN",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_SUPERUSER",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.ghisler.tcplugins.restricted",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.REQUEST_DELETE_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 2057,
+        "versionName": "3.33d"
+      }
+    ],
+    "com.ghisler.appinstaller": [
+      {
+        "added": 1669993629000,
+        "apkName": "appinstaller100.apk",
+        "hash": "44e1bc35f24f6ff6f75295198af674d1119695ca1ec5206471d777d64ffd7b43",
+        "hashType": "sha256",
+        "minSdkVersion": 8,
+        "packageName": "com.ghisler.appinstaller",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 250994,
+        "targetSdkVersion": 32,
+        "uses-permission": [
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.REQUEST_DELETE_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 1,
+        "versionName": "1.0"
+      }
+    ],
+    "com.ghisler.tcplugins.FTP": [
+      {
+        "added": 1669993630000,
+        "apkName": "tcandroidftp243.apk",
+        "hash": "0dcb2358b97ae2f7733a7154e61587cd95a84cce4bd64818576b96eab520a23e",
+        "hashType": "sha256",
+        "minSdkVersion": 9,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.ghisler.tcplugins.FTP",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 451451,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ]
+        ],
+        "versionCode": 60,
+        "versionName": "2.43"
+      }
+    ],
+    "com.ghisler.tcplugins.LAN": [
+      {
+        "added": 1669993630000,
+        "apkName": "tcandroidlan330.apk",
+        "hash": "da0d15a8f0abe8267aceb2b8bed09cf45ecca34f33f26037a6a9a0d9e696aeef",
+        "hashType": "sha256",
+        "minSdkVersion": 8,
+        "packageName": "com.ghisler.tcplugins.LAN",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 727109,
+        "targetSdkVersion": 31,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ]
+        ],
+        "versionCode": 87,
+        "versionName": "3.30"
+      }
+    ],
+    "com.ghisler.tcplugins.SFTP": [
+      {
+        "added": 1669993631000,
+        "apkName": "tcandroidsftp25.apk",
+        "hash": "8eb964f6e80bd3ec8d36d3322e49e921db21ffff408a835841692a8a1935a597",
+        "hashType": "sha256",
+        "minSdkVersion": 9,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a",
+          "mips",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.ghisler.tcplugins.SFTP",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 2141280,
+        "targetSdkVersion": 28,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ]
+        ],
+        "versionCode": 45,
+        "versionName": "2.5"
+      }
+    ],
+    "com.ghisler.tcplugins.WebDAV": [
+      {
+        "added": 1669993631000,
+        "apkName": "tcandroidwebdav350.apk",
+        "hash": "ac63b80f910e1d961e56e123b5c7b027f139a14aad04ca427f4a2240c4a2eb41",
+        "hashType": "sha256",
+        "minSdkVersion": 9,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.ghisler.tcplugins.WebDAV",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 789137,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ]
+        ],
+        "versionCode": 51,
+        "versionName": "3.50"
+      }
+    ],
+    "com.ghisler.tcplugins.WindowsLive": [
+      {
+        "added": 1669993632000,
+        "apkName": "tcandroidwindowslive250.apk",
+        "hash": "f664f3eb23c19eb2cf35944f48ce969e7de204a1f8cde0c38e4281f8c9918d46",
+        "hashType": "sha256",
+        "minSdkVersion": 14,
+        "packageName": "com.ghisler.tcplugins.WindowsLive",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 438160,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ]
+        ],
+        "versionCode": 19,
+        "versionName": "2.50"
+      }
+    ],
+    "com.ghisler.tcplugins.drive": [
+      {
+        "added": 1669993630000,
+        "apkName": "tcandroiddrive220.apk",
+        "hash": "a9db0d1f4bd1c362686daf3bf0839cb91c672c25db967dc94be37be07645e5e1",
+        "hashType": "sha256",
+        "minSdkVersion": 14,
+        "packageName": "com.ghisler.tcplugins.drive",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 631882,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.GET_ACCOUNTS",
+            null
+          ],
+          [
+            "android.permission.USE_CREDENTIALS",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "com.ghisler.tcplugins.restricted",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ]
+        ],
+        "versionCode": 23,
+        "versionName": "2.20"
+      }
+    ],
+    "com.ghisler.tcplugins.totaldrip": [
+      {
+        "added": 1669993632000,
+        "apkName": "totaldrip110.apk",
+        "hash": "4503c067f6f543a280791ecc1e18ea48652af5a51e7cf5a6a2eda73e1e1b4e72",
+        "hashType": "sha256",
+        "minSdkVersion": 14,
+        "packageName": "com.ghisler.tcplugins.totaldrip",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 380305,
+        "targetSdkVersion": 32,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ]
+        ],
+        "versionCode": 11,
+        "versionName": "1.10"
+      }
+    ]
+  }
+}
