@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1670019873000,
+    "timestamp": 1670023437000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -43,6 +43,11 @@
       "added": 1669993454000,
       "packageName": "com.ghisler.tcplugins.drive",
       "lastUpdated": 1669993630000,
+      "localized": {
+        "en-US": {
+          "summary": "Plugin for Total Commander to access Google drive"
+        }
+      },
       "icon": "com.ghisler.tcplugins.drive.png"
     },
     {
