@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1670141080000,
+    "timestamp": 1670141086000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -67,6 +67,7 @@
       "lastUpdated": 1669993630000,
       "localized": {
         "en-US": {
+          "description": "This is a Total Commander plugin! Do not download if you do not use Total Commander.\r\n\r\nThis plugin allows you to access your Google Drive data. Requires a Google account and Google Play services on your device.",
           "phoneScreenshots": [
             "clouddriveshot2.png"
           ],
