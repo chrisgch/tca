@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1670143064000,
+    "timestamp": 1670143180000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -160,7 +160,14 @@
       "added": 1670143061000,
       "icon": "com.ghisler.tcplugins.wifitransfer.87.png",
       "packageName": "com.ghisler.tcplugins.wifitransfer",
-      "lastUpdated": 1670143064000
+      "lastUpdated": 1670143064000,
+      "localized": {
+        "en-US": {
+          "phoneScreenshots": [
+            "wifi01.png"
+          ]
+        }
+      }
     },
     {
       "authorName": "Christian Ghisler",
