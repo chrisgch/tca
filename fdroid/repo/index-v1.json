@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1670140985000,
+    "timestamp": 1670140990000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -156,7 +156,8 @@
       "localized": {
         "en-US": {
           "phoneScreenshots": [
-            "windowsliveshot1.png"
+            "windowsliveshot1.png",
+            "windowsliveshot2.png"
           ],
           "summary": "Plugin for Total Commander to access Microsoft OneDrive"
         }
