@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1670023612000,
+    "timestamp": 1670140434000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -122,6 +122,13 @@
       "added": 1669980555000,
       "packageName": "com.ghisler.tcplugins.WebDAV",
       "lastUpdated": 1669993631000,
+      "localized": {
+        "en-US": {
+          "phoneScreenshots": [
+            "webdav-plugin1.png"
+          ]
+        }
+      },
       "icon": "com.ghisler.tcplugins.WebDAV.png"
     },
     {
