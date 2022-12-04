@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1670140794000,
+    "timestamp": 1670140824000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -170,6 +170,7 @@
       "lastUpdated": 1669993632000,
       "localized": {
         "en-US": {
+          "description": "Total Commander Plugin - requires the app Total Commander to work!\r\n\r\nThis plugin allows to access multiple Dropbox accounts from our app Total Commander.",
           "phoneScreenshots": [
             "totaldrip_plugin.png"
           ],
