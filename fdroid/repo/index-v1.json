@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1670140434000,
+    "timestamp": 1670140444000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -124,9 +124,11 @@
       "lastUpdated": 1669993631000,
       "localized": {
         "en-US": {
+          "description": "This is a Plugin for Total Commander for Android!\r\nIt does not work standalone!\r\n\r\nDo NOT install if you do not use Total Commander!\r\n\r\nThis plugin allows to access WebDAV servers like Apache with WebDAV extension.",
           "phoneScreenshots": [
             "webdav-plugin1.png"
-          ]
+          ],
+          "summary": "WebDAV Plugin for Total Commander"
         }
       },
       "icon": "com.ghisler.tcplugins.WebDAV.png"
