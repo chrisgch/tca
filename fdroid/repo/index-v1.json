@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1670143180000,
+    "timestamp": 1670143185000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -164,7 +164,9 @@
       "localized": {
         "en-US": {
           "phoneScreenshots": [
-            "wifi01.png"
+            "wifi01.png",
+            "wifi02.png",
+            "wifi03.png"
           ]
         }
       }
