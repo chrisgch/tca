@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1670140650000,
+    "timestamp": 1670140655000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -43,7 +43,10 @@
         "en-US": {
           "phoneScreenshots": [
             "TotalCommander1.png",
-            "TotalCommander2.png"
+            "TotalCommander2.png",
+            "TotalCommander3.png",
+            "TotalCommander4.png",
+            "TotalCommander5.png"
           ],
           "summary": "File manager for Android"
         }
