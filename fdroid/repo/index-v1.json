@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1670140990000,
+    "timestamp": 1670141005000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -155,6 +155,7 @@
       "lastUpdated": 1669993632000,
       "localized": {
         "en-US": {
+          "description": "This is a Plugin for Total Commander for Android!\r\nIt does not work standalone!\r\n\r\nDo NOT install if you do not use Total Commander!\r\n\r\nThis plugin allows to access your Windows Live OneDrive cloud drive accounts from Total Commander. You will need a Microsoft account to access OneDrive. Multiple accounts are supported.",
           "phoneScreenshots": [
             "windowsliveshot1.png",
             "windowsliveshot2.png"
