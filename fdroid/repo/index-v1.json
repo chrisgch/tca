@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1670143894000,
+    "timestamp": 1671452352000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -97,12 +97,12 @@
     },
     {
       "authorName": "Christian Ghisler",
-      "suggestedVersionCode": "87",
+      "suggestedVersionCode": "92",
       "license": "Unknown",
       "name": "TotalCmd-LAN (Windows shares)",
       "added": 1669993630000,
       "packageName": "com.ghisler.tcplugins.LAN",
-      "lastUpdated": 1669993630000,
+      "lastUpdated": 1671452352000,
       "localized": {
         "en-US": {
           "description": "This is a Plugin for Total Commander for Android!\r\nIt does not work standalone!\r\n\r\nDo NOT install if you do not use Total Commander!\r\n\r\nIMPORTANT: If you cannot connect to your server with version 3, then your server probably doesn't support the SMB2 protocol.\r\nSolution: Please open the connection settings by long tap on the connection name. Then disable SMB2. This will use the old SMB1 protocol. Normally the plugin should detect automatically when a server doesn't support SMB2, but some NAS devices seem to react differently.",
@@ -395,6 +395,56 @@
       }
     ],
     "com.ghisler.tcplugins.LAN": [
+      {
+        "added": 1671452352000,
+        "apkName": "tcandroidlan331.apk",
+        "hash": "e48039522f8c7b6840e254353420b80e9538299035f0d87e21eeeb4a45900d46",
+        "hashType": "sha256",
+        "minSdkVersion": 8,
+        "packageName": "com.ghisler.tcplugins.LAN",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 731463,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ]
+        ],
+        "versionCode": 92,
+        "versionName": "3.31"
+      },
       {
         "added": 1669993630000,
         "apkName": "tcandroidlan330.apk",
