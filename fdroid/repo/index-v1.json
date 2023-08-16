@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1692181860000,
+    "timestamp": 1692181885000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -25,7 +25,7 @@
       "lastUpdated": 1692181859000,
       "localized": {
         "en-US": {
-          "description": "This is a standalone app to install apk, apks, apkm and xapk files.\r\n\r\nUse this if you want to keep updating Total Commander from the Play Store, but still need the app installation feature.",
+          "description": "This is a standalone app to install apk, apks, aspk, apkm and xapk files.\r\n\r\nUse this if you want to keep updating Total Commander from the Play Store, but still need the app installation feature.",
           "summary": "App to install apk, apks, apkm and xapk files"
         }
       },
