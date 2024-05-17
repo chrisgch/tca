@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1712044429000,
+    "timestamp": 1715935292000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -17,12 +17,12 @@
   "apps": [
     {
       "authorName": "Christian Ghisler",
-      "suggestedVersionCode": "4",
+      "suggestedVersionCode": "6",
       "license": "Unknown",
       "name": "Multi-APK-Installer",
       "added": 1669980556000,
       "packageName": "com.ghisler.appinstaller",
-      "lastUpdated": 1698326599000,
+      "lastUpdated": 1715935291000,
       "localized": {
         "en-US": {
           "description": "This is a standalone app to install apk, apks, aspk, apkm and xapk files.\r\n\r\nUse this if you want to keep updating Total Commander from the Play Store, but still need the app installation feature.",
@@ -713,6 +713,44 @@
       }
     ],
     "com.ghisler.appinstaller": [
+      {
+        "added": 1715935291000,
+        "apkName": "appinstaller130.apk",
+        "hash": "aa54a6b804981ebf65ea0d558270e0165fc453f9518ed44f339283f5c73f69d6",
+        "hashType": "sha256",
+        "minSdkVersion": 8,
+        "packageName": "com.ghisler.appinstaller",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 332169,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.REQUEST_DELETE_PACKAGES",
+            null
+          ],
+          [
+            "moe.shizuku.manager.permission.API_V23",
+            null
+          ]
+        ],
+        "versionCode": 6,
+        "versionName": "1.3"
+      },
       {
         "added": 1698326599000,
         "apkName": "appinstaller120.apk",
