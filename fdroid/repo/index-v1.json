@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1722839052000,
+    "timestamp": 1722975453000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -177,12 +177,12 @@
     },
     {
       "authorName": "Christian Ghisler",
-      "suggestedVersionCode": "20",
+      "suggestedVersionCode": "24",
       "license": "Unknown",
       "name": "Totalcmd-Windows Live OneDrive",
       "added": 1669990375000,
       "packageName": "com.ghisler.tcplugins.WindowsLive",
-      "lastUpdated": 1702572610000,
+      "lastUpdated": 1722975453000,
       "localized": {
         "en-US": {
           "description": "This is a Plugin for Total Commander for Android!\r\nIt does not work standalone!\r\n\r\nDo NOT install if you do not use Total Commander!\r\n\r\nThis plugin allows to access your Windows Live OneDrive cloud drive accounts from Total Commander. You will need a Microsoft account to access OneDrive. Multiple accounts are supported.",
@@ -1733,6 +1733,52 @@
       }
     ],
     "com.ghisler.tcplugins.WindowsLive": [
+      {
+        "added": 1722975453000,
+        "apkName": "tcandroidwindowslive270.apk",
+        "hash": "7403dc01280c3b015b298a4eaad99ae3217ff844647431ced5c1388ef5b4633e",
+        "hashType": "sha256",
+        "minSdkVersion": 14,
+        "packageName": "com.ghisler.tcplugins.WindowsLive",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 440965,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ]
+        ],
+        "versionCode": 24,
+        "versionName": "2.70"
+      },
       {
         "added": 1702572610000,
         "apkName": "tcandroidwindowslive260.apk",
