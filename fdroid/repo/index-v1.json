@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1722975492000,
+    "timestamp": 1722975523000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -59,12 +59,12 @@
     },
     {
       "authorName": "Christian Ghisler",
-      "suggestedVersionCode": "29",
+      "suggestedVersionCode": "30",
       "license": "Unknown",
       "name": "Totalcmd-Drive",
       "added": 1669993454000,
       "packageName": "com.ghisler.tcplugins.drive",
-      "lastUpdated": 1717580175000,
+      "lastUpdated": 1722975523000,
       "localized": {
         "en-US": {
           "description": "This is a Total Commander plugin! Do not download if you do not use Total Commander.\r\n\r\nThis plugin allows you to access your Google Drive data. Requires a Google account and Google Play services on your device.",
@@ -1977,6 +1977,64 @@
       }
     ],
     "com.ghisler.tcplugins.drive": [
+      {
+        "added": 1722975523000,
+        "apkName": "tcandroiddrive241.apk",
+        "hash": "d82238c25f5bcdcd4721ae52bf97b48dd459704946159593acd7c31613835036",
+        "hashType": "sha256",
+        "minSdkVersion": 14,
+        "packageName": "com.ghisler.tcplugins.drive",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 645286,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.GET_ACCOUNTS",
+            null
+          ],
+          [
+            "android.permission.USE_CREDENTIALS",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "com.ghisler.tcplugins.restricted",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ]
+        ],
+        "versionCode": 30,
+        "versionName": "2.41"
+      },
       {
         "added": 1717580175000,
         "apkName": "tcandroiddrive240.apk",
