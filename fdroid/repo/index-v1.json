@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1722975523000,
+    "timestamp": 1722975539000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -197,12 +197,12 @@
     },
     {
       "authorName": "Christian Ghisler",
-      "suggestedVersionCode": "12",
+      "suggestedVersionCode": "13",
       "license": "Unknown",
       "name": "TotalDrip Total Commander Plugin",
       "added": 1669980557000,
       "packageName": "com.ghisler.tcplugins.totaldrip",
-      "lastUpdated": 1680790266000,
+      "lastUpdated": 1722975539000,
       "localized": {
         "en-US": {
           "description": "Total Commander Plugin - requires the app Total Commander to work!\r\n\r\nThis plugin allows to access multiple Dropbox accounts from our app Total Commander.",
@@ -2211,6 +2211,56 @@
       }
     ],
     "com.ghisler.tcplugins.totaldrip": [
+      {
+        "added": 1722975539000,
+        "apkName": "totaldrip112.apk",
+        "hash": "c6401714663947e15a0ac7faca41bd51f006e637058f8cdc80dc620e30e8f30c",
+        "hashType": "sha256",
+        "minSdkVersion": 14,
+        "packageName": "com.ghisler.tcplugins.totaldrip",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 369635,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ]
+        ],
+        "versionCode": 13,
+        "versionName": "1.12"
+      },
       {
         "added": 1680790266000,
         "apkName": "totaldrip111.apk",
