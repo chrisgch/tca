@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1725550871000,
+    "timestamp": 1728889166000,
     "version": 21,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
@@ -136,12 +136,12 @@
     },
     {
       "authorName": "Christian Ghisler",
-      "suggestedVersionCode": "57",
+      "suggestedVersionCode": "62",
       "license": "Unknown",
       "name": "TotalCmd-WebDAV (WEB Folders)",
       "added": 1669980555000,
       "packageName": "com.ghisler.tcplugins.WebDAV",
-      "lastUpdated": 1722975480000,
+      "lastUpdated": 1728889166000,
       "localized": {
         "en-US": {
           "description": "This is a Plugin for Total Commander for Android!\r\nIt does not work standalone!\r\n\r\nDo NOT install if you do not use Total Commander!\r\n\r\nThis plugin allows to access WebDAV servers like Apache with WebDAV extension.",
@@ -1819,6 +1819,66 @@
       }
     ],
     "com.ghisler.tcplugins.WebDAV": [
+      {
+        "added": 1728889166000,
+        "apkName": "tcandroidwebdav376.apk",
+        "hash": "32bcec05c35261f2b335a6a26010a2688875419cff0dcb0fbce30c192365b399",
+        "hashType": "sha256",
+        "minSdkVersion": 9,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.ghisler.tcplugins.WebDAV",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 805463,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ]
+        ],
+        "versionCode": 62,
+        "versionName": "3.76"
+      },
       {
         "added": 1722975480000,
         "apkName": "tcandroidwebdav371.apk",
