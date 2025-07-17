@@ -1,7 +1,7 @@
 {
   "repo": {
-    "timestamp": 1733427854000,
-    "version": 21,
+    "timestamp": 1752756833000,
+    "version": 23,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
     "address": "https://raw.githubusercontent.com/chrisgch/tca/master/fdroid/repo",
