@@ -288,7 +288,7 @@ This plugin supports connections by FTP and FTPS (secure FTP over SSL). For SFTP
 		<tracker></tracker>
 		<author>Christian Ghisler</author>
 		<marketversion></marketversion>
-		<marketvercode>70</marketvercode>
+		<marketvercode>71</marketvercode>
 		<package>
 			<version>2.50</version>
 			<versioncode>71</versioncode>
