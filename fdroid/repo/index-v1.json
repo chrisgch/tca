@@ -1,7 +1,7 @@
 {
   "repo": {
-    "timestamp": 1752756833000,
-    "version": 23,
+    "timestamp": 1752821633000,
+    "version": 24,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
     "address": "https://raw.githubusercontent.com/chrisgch/tca/master/fdroid/repo",
@@ -78,12 +78,12 @@
     },
     {
       "authorName": "Christian Ghisler",
-      "suggestedVersionCode": "70",
+      "suggestedVersionCode": "71",
       "license": "Unknown",
       "name": "TotalCmd-FTP (File Transfers)",
       "added": 1669980555000,
       "packageName": "com.ghisler.tcplugins.FTP",
-      "lastUpdated": 1752756833000,
+      "lastUpdated": 1752821633000,
       "localized": {
         "en-US": {
           "description": "This is a Plugin for Total Commander for Android! It does not work standalone!\r\n\r\nDo NOT install if you do not use Total Commander!\r\n\r\nThis plugin supports connections by FTP and FTPS (secure FTP over SSL). For SFTP (file transfer over SSH secure shell), there is a separate plugin available.",
