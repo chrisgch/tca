@@ -857,6 +857,58 @@
     "com.ghisler.tcplugins.FTP": [
       {
         "added": 1725550871000,
+        "apkName": "tcandroidftp250.apk",
+        "hash": "7014a27e7505477fe4d63789bc8e8f7ff0a142bf98f8d755b910b847ee2ecdf4",
+        "hashType": "sha256",
+        "minSdkVersion": 9,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.ghisler.tcplugins.FTP",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 477322,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ]
+        ],
+        "versionCode": 71,
+        "versionName": "2.50"
+      },
+      {
+        "added": 1725550871000,
         "apkName": "tcandroidftp249.apk",
         "hash": "433c3582ccadda14693675b84ec17ddefae028c37543b6d0613134a36794c6f6",
         "hashType": "sha256",
