@@ -871,7 +871,7 @@
         "sig": "802e9030d81682201243d153ab0d7f1c",
         "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
         "size": 477322,
-        "targetSdkVersion": 35,
+        "targetSdkVersion": 36,
         "uses-permission": [
           [
             "android.permission.WRITE_EXTERNAL_STORAGE",
