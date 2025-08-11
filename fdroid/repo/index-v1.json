@@ -1,7 +1,7 @@
 {
   "repo": {
-    "timestamp": 1754900318000,
-    "version": 25,
+    "timestamp": 1754901935000
+    "version": 26,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
     "address": "https://raw.githubusercontent.com/chrisgch/tca/master/fdroid/repo",
@@ -141,7 +141,7 @@
       "name": "TotalCmd-WebDAV (WEB Folders)",
       "added": 1669980555000,
       "packageName": "com.ghisler.tcplugins.WebDAV",
-      "lastUpdated": 1754900318000,
+      "lastUpdated": 1754901935000
       "localized": {
         "en-US": {
           "description": "This is a Plugin for Total Commander for Android!\r\nIt does not work standalone!\r\n\r\nDo NOT install if you do not use Total Commander!\r\n\r\nThis plugin allows to access WebDAV servers like Apache with WebDAV extension.",
