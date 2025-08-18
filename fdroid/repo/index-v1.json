@@ -1,7 +1,7 @@
 {
   "repo": {
-    "timestamp": 1754901935000
-    "version": 26,
+    "timestamp": 1755521468000,
+    "version": 27,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
     "address": "https://raw.githubusercontent.com/chrisgch/tca/master/fdroid/repo",
@@ -116,12 +116,12 @@
     },
     {
       "authorName": "Christian Ghisler",
-      "suggestedVersionCode": "59",
+      "suggestedVersionCode": "60",
       "license": "Unknown",
       "name": "TotalCmd-SFTP",
       "added": 1669981425000,
       "packageName": "com.ghisler.tcplugins.SFTP",
-      "lastUpdated": 1724667408000,
+      "lastUpdated": 1755521468000,
       "localized": {
         "en-US": {
           "description": "This is a Plugin for Total Commander for Android! It does not work standalone!\r\n\r\nDo NOT install if you do not use Total Commander!\r\n\r\nNote: This plugin allows to connect to SFTP servers (file transfer over SSH secure shell). For FTPS (FTP over SSL), please use the separate FTP plugin.\r\n\r\nWhy is this plugin so big? It includes the free sshj library for ssh connections. To support authentication via client certificates, it also has to include libraries from the BouncyCastle project.",
@@ -141,7 +141,7 @@
       "name": "TotalCmd-WebDAV (WEB Folders)",
       "added": 1669980555000,
       "packageName": "com.ghisler.tcplugins.WebDAV",
-      "lastUpdated": 1754901935000
+      "lastUpdated": 1754901935000,
       "localized": {
         "en-US": {
           "description": "This is a Plugin for Total Commander for Android!\r\nIt does not work standalone!\r\n\r\nDo NOT install if you do not use Total Commander!\r\n\r\nThis plugin allows to access WebDAV servers like Apache with WebDAV extension.",
@@ -1505,6 +1505,62 @@
       }
     ],
     "com.ghisler.tcplugins.SFTP": [
+      {
+        "added": 1755521468000,
+        "apkName": "tcandroidsftp294.apk",
+        "hash": "10b08c835d4b7d1f65a61a1c027fbe0d87ed5c7a79ea4b54240e43a87d4e2090",
+        "hashType": "sha256",
+        "minSdkVersion": 9,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.ghisler.tcplugins.SFTP",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 2214447,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ]
+        ],
+        "versionCode": 60,
+        "versionName": "2.94"
+      },
       {
         "added": 1724667408000,
         "apkName": "tcandroidsftp293.apk",
