@@ -1,7 +1,7 @@
 {
   "repo": {
-    "timestamp": 1763986980000,
-    "version": 28,
+    "timestamp": 1764322380000,
+    "version": 29,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
     "address": "https://raw.githubusercontent.com/chrisgch/tca/master/fdroid/repo",
@@ -325,6 +325,10 @@
           ],
           [
             "moe.shizuku.manager.permission.API_V23",
+            null
+          ],
+          [
+            "com.termux.permission.RUN_COMMAND",
             null
           ]
         ],
