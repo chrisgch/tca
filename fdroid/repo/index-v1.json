@@ -1,7 +1,7 @@
 {
   "repo": {
-    "timestamp": 1787753236000,
-    "version": 35,
+    "timestamp": 1788789244000,
+    "version": 36,
     "name": "totalcmd",
     "icon": "default-repo-icon.png",
     "address": "https://raw.githubusercontent.com/chrisgch/tca/master/fdroid/repo",
@@ -78,12 +78,12 @@
     },
     {
       "authorName": "Christian Ghisler",
-      "suggestedVersionCode": "71",
+      "suggestedVersionCode": "75",
       "license": "Unknown",
       "name": "TotalCmd-FTP (File Transfers)",
       "added": 1669980555000,
       "packageName": "com.ghisler.tcplugins.FTP",
-      "lastUpdated": 1752821633000,
+      "lastUpdated": 1788789244000,
       "localized": {
         "en-US": {
           "description": "This is a Plugin for Total Commander for Android! It does not work standalone!\r\n\r\nDo NOT install if you do not use Total Commander!\r\n\r\nThis plugin supports connections by FTP and FTPS (secure FTP over SSL). For SFTP (file transfer over SSH secure shell), there is a separate plugin available.",
@@ -1209,6 +1209,58 @@
       }
     ],
     "com.ghisler.tcplugins.FTP": [
+      {
+        "added": 1788789244000,
+        "apkName": "tcandroidftp30.apk",
+        "hash": "aa5608bf13826f086c00a6fa161ecc197e4d2bfed15b55810c7eee517ba4a5bc",
+        "hashType": "sha256",
+        "minSdkVersion": 14,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.ghisler.tcplugins.FTP",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 491829,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ]
+        ],
+        "versionCode": 75,
+        "versionName": "3.0"
+      },
       {
         "added": 1725550871000,
         "apkName": "tcandroidftp250.apk",
