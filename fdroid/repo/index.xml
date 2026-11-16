@@ -73,7 +73,7 @@ Use this if you want to keep updating Total Commander from the Play Store, but s
 	<application id="com.ghisler.android.TotalCommander">
 		<id>com.ghisler.android.TotalCommander</id>
 		<added>2022-12-02</added>
-		<lastupdated>2025-11-24</lastupdated>
+		<lastupdated>2026-02-16</lastupdated>
 		<name>Total Commander</name>
 		<summary>File manager for Android</summary>
 		<icon>com.ghisler.android.TotalCommander.png</icon>
@@ -119,7 +119,34 @@ http://su.chainfire.eu/#updates-permission</desc>
 		<tracker></tracker>
 		<author>Christian Ghisler</author>
 		<marketversion></marketversion>
-		<marketvercode>2460</marketvercode>
+		<marketvercode>2490</marketvercode>
+		<package>
+			<version>3.62d</version>
+			<versioncode>2490</versioncode>
+			<apkname>tcandroid-down362d-universal.apk</apkname>
+			<hash type="sha256">d918ccc0506f6ac3b72fb2cc4dc1eccb3f83eb873077d982a79054d8d65467e4</hash>
+			<size>5599020</size>
+			<sdkver>8</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-02-16</added>
+			<sig>802e9030d81682201243d153ab0d7f1c</sig>
+			<permissions>ACCESS_NETWORK_STATE,ACCESS_SUPERUSER,BLUETOOTH,BLUETOOTH_ADMIN,INTERNET,READ_EXTERNAL_STORAGE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.launcher.permission.INSTALL_SHORTCUT,com.ghisler.tcplugins.restricted</permissions>
+			<uses-permission maxSdkVersion="30" name="android.permission.BLUETOOTH_ADMIN"/>
+			<uses-permission name="android.permission.QUERY_ALL_PACKAGES"/>
+			<uses-permission name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+			<uses-permission name="android.permission.REQUEST_DELETE_PACKAGES"/>
+			<uses-permission name="android.permission.USE_FINGERPRINT"/>
+			<uses-permission name="android.permission.USE_BIOMETRIC"/>
+			<uses-permission name="android.permission.FOREGROUND_SERVICE"/>
+			<uses-permission name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"/>
+			<uses-permission name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+			<uses-permission name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+			<uses-permission name="android.permission.POST_NOTIFICATIONS"/>
+			<uses-permission name="android.permission.BLUETOOTH_CONNECT"/>
+			<uses-permission name="moe.shizuku.manager.permission.API_V23"/>
+			<uses-permission name="com.termux.permission.RUN_COMMAND"/>
+			<nativecode>arm64-v8a,armeabi,armeabi-v7a,mips,x86,x86_64</nativecode>
+		</package>
 		<package>
 			<version>3.61d</version>
 			<versioncode>2460</versioncode>
@@ -223,7 +250,7 @@ http://su.chainfire.eu/#updates-permission</desc>
 	<application id="com.ghisler.tcplugins.drive">
 		<id>com.ghisler.tcplugins.drive</id>
 		<added>2022-12-02</added>
-		<lastupdated>2024-10-14</lastupdated>
+		<lastupdated>2025-11-12</lastupdated>
 		<name>Totalcmd-Drive</name>
 		<summary>Plugin for Total Commander to access Google drive</summary>
 		<icon>com.ghisler.tcplugins.drive.png</icon>
@@ -236,7 +263,22 @@ This plugin allows you to access your Google Drive data. Requires a Google accou
 		<tracker></tracker>
 		<author>Christian Ghisler</author>
 		<marketversion></marketversion>
-		<marketvercode>31</marketvercode>
+		<marketvercode>33</marketvercode>
+		<package>
+			<version>2.50</version>
+			<versioncode>33</versioncode>
+			<apkname>tcandroiddrive250.apk</apkname>
+			<hash type="sha256">039ce0fb938a26bca465b6f6bfbcaae3603c0c9d9a4ef52cdabbb7ab42188467</hash>
+			<size>680395</size>
+			<sdkver>14</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2025-11-12</added>
+			<sig>802e9030d81682201243d153ab0d7f1c</sig>
+			<permissions>ACCESS_NETWORK_STATE,CHANGE_WIFI_STATE,GET_ACCOUNTS,INTERNET,READ_EXTERNAL_STORAGE,USE_CREDENTIALS,WRITE_EXTERNAL_STORAGE,com.ghisler.tcplugins.restricted</permissions>
+			<uses-permission name="android.permission.FOREGROUND_SERVICE"/>
+			<uses-permission name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+			<uses-permission name="android.permission.POST_NOTIFICATIONS"/>
+		</package>
 		<package>
 			<version>2.42</version>
 			<versioncode>31</versioncode>
@@ -301,7 +343,7 @@ This plugin allows you to access your Google Drive data. Requires a Google accou
 	<application id="com.ghisler.tcplugins.FTP">
 		<id>com.ghisler.tcplugins.FTP</id>
 		<added>2022-12-02</added>
-		<lastupdated>2025-07-18</lastupdated>
+		<lastupdated>2026-09-07</lastupdated>
 		<name>TotalCmd-FTP (File Transfers)</name>
 		<summary>FTP-Plugin for Total Commander</summary>
 		<icon>com.ghisler.tcplugins.FTP.png</icon>
@@ -316,7 +358,23 @@ This plugin supports connections by FTP and FTPS (secure FTP over SSL). For SFTP
 		<tracker></tracker>
 		<author>Christian Ghisler</author>
 		<marketversion></marketversion>
-		<marketvercode>71</marketvercode>
+		<marketvercode>75</marketvercode>
+		<package>
+			<version>3.0</version>
+			<versioncode>75</versioncode>
+			<apkname>tcandroidftp30.apk</apkname>
+			<hash type="sha256">aa5608bf13826f086c00a6fa161ecc197e4d2bfed15b55810c7eee517ba4a5bc</hash>
+			<size>491829</size>
+			<sdkver>14</sdkver>
+			<targetSdkVersion>37</targetSdkVersion>
+			<added>2026-09-07</added>
+			<sig>802e9030d81682201243d153ab0d7f1c</sig>
+			<permissions>INTERNET,ACCESS_NETWORK_STATE,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+			<uses-permission name="android.permission.FOREGROUND_SERVICE"/>
+			<uses-permission name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+			<uses-permission name="android.permission.POST_NOTIFICATIONS"/>
+		</package>
 		<package>
 			<version>2.50</version>
 			<versioncode>71</versioncode>
@@ -399,7 +457,7 @@ This plugin supports connections by FTP and FTPS (secure FTP over SSL). For SFTP
 	<application id="com.ghisler.tcplugins.LAN">
 		<id>com.ghisler.tcplugins.LAN</id>
 		<added>2022-12-02</added>
-		<lastupdated>2024-10-14</lastupdated>
+		<lastupdated>2026-02-15</lastupdated>
 		<name>TotalCmd-LAN (Windows shares)</name>
 		<summary>SMB (file sharing) plugin for Total Commander</summary>
 		<icon>com.ghisler.tcplugins.LAN.png</icon>
@@ -416,7 +474,43 @@ Solution: Please open the connection settings by long tap on the connection name
 		<tracker></tracker>
 		<author>Christian Ghisler</author>
 		<marketversion></marketversion>
-		<marketvercode>102</marketvercode>
+		<marketvercode>106</marketvercode>
+		<package>
+			<version>3.60</version>
+			<versioncode>106</versioncode>
+			<apkname>tcandroidlan360.apk</apkname>
+			<hash type="sha256">c3091b317e4f4c4a0139a98830cef4269a79fc18bd27dce6c94d10e7bae308e8</hash>
+			<size>944606</size>
+			<sdkver>8</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-02-15</added>
+			<sig>802e9030d81682201243d153ab0d7f1c</sig>
+			<permissions>ACCESS_NETWORK_STATE,CHANGE_WIFI_STATE,INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE</permissions>
+			<uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			<uses-permission name="android.permission.ACCESS_WIFI_STATE"/>
+			<uses-permission name="android.permission.FOREGROUND_SERVICE"/>
+			<uses-permission name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+			<uses-permission name="android.permission.POST_NOTIFICATIONS"/>
+		</package>
+		<package>
+			<version>3.59</version>
+			<versioncode>104</versioncode>
+			<apkname>tcandroidlan359.apk</apkname>
+			<hash type="sha256">402e160cfed2cb35ab90281aad62ef23bb3e3d7ee57af9308a059c0d22691328</hash>
+			<size>783052</size>
+			<sdkver>8</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2025-08-21</added>
+			<sig>802e9030d81682201243d153ab0d7f1c</sig>
+			<permissions>ACCESS_NETWORK_STATE,CHANGE_WIFI_STATE,INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE</permissions>
+			<uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			<uses-permission name="android.permission.ACCESS_WIFI_STATE"/>
+			<uses-permission name="android.permission.FOREGROUND_SERVICE"/>
+			<uses-permission name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+			<uses-permission name="android.permission.POST_NOTIFICATIONS"/>
+		</package>
 		<package>
 			<version>3.57</version>
 			<versioncode>102</versioncode>
@@ -672,11 +766,11 @@ This plugin allows to access WebDAV servers like Apache with WebDAV extension.</
 		<tracker></tracker>
 		<author>Christian Ghisler</author>
 		<marketversion></marketversion>
-		<marketvercode>62</marketvercode>
+		<marketvercode>63</marketvercode>
 		<package>
 			<version>3.77</version>
 			<versioncode>63</versioncode>
-			<apkname>tcandroidwebdav376.apk</apkname>
+			<apkname>tcandroidwebdav377.apk</apkname>
 			<hash type="sha256">ed981f47b4929ea1b8fb0662f386e88569a0821a34a819a6fda0c47e48c767de</hash>
 			<size>816926</size>
 			<sdkver>9</sdkver>
@@ -755,7 +849,7 @@ This plugin allows to access WebDAV servers like Apache with WebDAV extension.</
 	<application id="com.ghisler.tcplugins.wifitransfer">
 		<id>com.ghisler.tcplugins.wifitransfer</id>
 		<added>2022-12-04</added>
-		<lastupdated>2024-12-05</lastupdated>
+		<lastupdated>2026-08-26</lastupdated>
 		<name>TotalCmd-Wifi Transfer</name>
 		<summary>WiFi transfer plugin and standalone app (does not require Total Commander)</summary>
 		<icon>com.ghisler.tcplugins.wifitransfer.png</icon>
@@ -963,7 +1057,23 @@ This plugin allows to access multiple Dropbox accounts from our app Total Comman
 		<tracker></tracker>
 		<author>Christian Ghisler</author>
 		<marketversion></marketversion>
-		<marketvercode>14</marketvercode>
+		<marketvercode>17</marketvercode>
+		<package>
+			<version>2.0</version>
+			<versioncode>17</versioncode>
+			<apkname>totaldrip200.apk</apkname>
+			<hash type="sha256">3661f73b483ad33871005245b1a875bec3050bc3155281a0f298329b105be4d8</hash>
+			<size>313251</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>37</targetSdkVersion>
+			<added>2026-08-26</added>
+			<sig>802e9030d81682201243d153ab0d7f1c</sig>
+			<permissions>ACCESS_NETWORK_STATE,CHANGE_WIFI_STATE,INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE,POST_NOTIFICATIONS</permissions>
+			<uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			<uses-permission name="android.permission.FOREGROUND_SERVICE"/>
+			<uses-permission name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+		</package>
 		<package>
 			<version>1.13</version>
 			<versioncode>14</versioncode>
